@@ -1,0 +1,117 @@
+body {
+    color: #69696a;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, li:first-child {
+    color: #000;
+}
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 7px;
+    
+}
+
+button {
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+p {
+    border-left: 2px solid #69696a;
+    padding-left: 7px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgba(247, 193, 162, 0.7);
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    
+}
+footer  ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    justify-content: right;
+}
+
+footer li {
+    margin-right: 20px;
+}
+footer li:first-child {
+    margin-right: auto;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+    nav li:first-child {
+        margin-right: auto;
+    }
+
+    main {
+        display: flex;
+    }
+
+    #left {
+        width: 50%;
+    }
+
+    #right {
+        width: 50%;
+    }
+
+    #circlesBox {
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        position: relative;
+    }
+
+    #pink {
+        height: 225px;
+        width: 225px;
+        background: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        position: absolute;
+    }
+    #purple {
+        height: 125px;
+        width: 125px;
+        background: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+    #peach {
+        height: 175px;
+        width: 175px;
+        background: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
